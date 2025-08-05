@@ -1,14 +1,16 @@
 {
-  "compilerOptions": {
-    "target": "ES2020",
-    "module": "ESNext",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
-    "esModuleInterop": true,
-    "skipLibCheck": true,
-    "forceConsistentCasingInFileNames": true
+  "name": "gestion-cargaisons",
+  "version": "1.0.0",
+  "description": "Système de gestion de cargaisons",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc && node dist/main.js",
+    "serve": "npx http-server public -p 3000"
   },
-  "include": ["src/**/*.ts"],
-  "exclude": ["node_modules"]
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "http-server": "^14.1.1"
+  }
 }

@@ -1,12 +1,12 @@
-import { Aerienne } from "./Models/Aerienne"
-import { Alimentaire } from "./Models/Alimentaire"
-import { Chimique } from "./Models/Chimique"
-import { Fragile } from "./Models/Fragile"
-import { Incassable } from "./Models/Incassable"
-import { Maritime } from "./Models/Maritime"
-import { Routiere } from "./Models/Routiere"
-import type { Cargaison } from "./Models/Cargaison"
-import type { Produit } from "./Models/Produit"
+import { Aerienne } from "./Models/Aerienne.js"
+import { Alimentaire } from "./Models/Alimentaire.js"
+import { Chimique } from "./Models/Chimique.js"
+import { Fragile } from "./Models/Fragile.js"
+import { Incassable } from "./Models/Incassable.js"
+import { Maritime } from "./Models/Maritime.js"
+import { Routiere } from "./Models/Routiere.js"
+import type { Cargaison } from "./Models/Cargaison.js"
+import type { Produit } from "./Models/Produit.js"
 
 const cargaisons: Cargaison[] = []
 let currentProduct: Produit | null = null

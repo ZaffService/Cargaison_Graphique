@@ -1,4 +1,4 @@
-import { Produit } from "./Produit"
+import { Produit } from "./Produit.js"
 
 export class Chimique extends Produit {
   private degreToxicite: number
